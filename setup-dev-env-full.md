@@ -73,3 +73,9 @@ EOF
 sudo chmod 644 /etc/profile.d/JAVA_HOME.sh
 source /etc/profile.d/JAVA_HOME.sh
 ```
+
+```sh
+echo "$JAVA_HOME"
+java --version
+javac --version
+```
